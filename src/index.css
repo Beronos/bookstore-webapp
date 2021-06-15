@@ -11,3 +11,100 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.shadow-border{
+  border: 1px rgba(0, 0, 0, 0.16) solid;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#create-book-container {
+  margin: 60px 27% 0 27%;
+  border-radius: 1.5%;
+  padding: 20px 45px;
+}
+
+#login-form-container{
+  margin: 25vh auto;
+  width: 20vw;
+  min-height: 38vh;
+  border-radius: 7.5%;
+  padding: 20px 45px;
+}
+
+div#admin-navbar{
+  background-color: rgba(132, 132, 204, 0.1);
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div#logo-container{
+  margin-left: 1.5%;
+}
+
+#logo-link{
+  text-decoration: none;
+  color:black;
+  font-family: 'Staatliches', cursive;
+}
+
+div#options-container{
+  margin-right: 1.5%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#options-list li{
+  display: inline;
+  padding-left: 15px;
+  padding-right: 3px;
+}
+
+#options-list li a{
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  color:black;
+} 
+
+#options-list li a#logout{
+  text-decoration: none;
+  font-family: 'Staatliches', cursive;
+  color:#645E9D;
+} 
+
+#options-list li a:hover{
+  text-decoration: underline;
+  color:#027027;
+  font-size: large;
+} 
+
+
+
+
+#create-book-button{
+  margin-top: 20px;
+  width: 100%;
+}
+
+#create-book-link{
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  #create-book-container {
+    margin: 60px 7.5% 0 7.5%;
+  }
+}
+
